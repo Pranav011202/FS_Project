@@ -1,0 +1,28 @@
+version: '3'
+services:
+  node-app:
+    build:
+      context: .
+      args:
+        - NODE_ENV=development
+    # build: .
+    # ports:
+    #   - "3000:3000"
+    volumes:
+      - ./:/app:ro
+      - /app/node_modules
+    environment:
+      # - NODE_ENV=development
+      - MONGO_USER=root
+      - MONGO_PASSWORD=root
+      
+    command: npm run dev
+    # the above command should match with package.json
+
+    # environment:
+    #   - PORT=3000
+    # env_file:
+    #   - ./.env
+
+
+# we just need an extra property of volumes in the dev environment, rest of the properties are there in the common docker compose file.

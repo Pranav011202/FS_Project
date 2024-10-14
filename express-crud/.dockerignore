@@ -1,0 +1,11 @@
+Dockerfile
+node_modules
+.dockerignore
+.gitignore
+.git
+
+# docker-compose.yml
+# docker-compose.dev.yaml
+# docker-compose.prod.yaml
+docker-compose*
+# this will single handedly ignore all the docker compose files.

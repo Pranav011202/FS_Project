@@ -1,0 +1,119 @@
+[
+    {
+        "name" : "Sam", 
+        "email" : "sam@gmail.com", 
+        "phone" : 9876543210, 
+        "student_details" : {
+            "batch" : 2021,
+            "enrollment" : "e21cseu1123",
+            "year": 4,
+            "sem" : 7
+        },
+        "hobbies" : ["painting", "football", "chess"]
+
+    }, 
+    {
+        "name" : "Nina", 
+        "email" : "nina@gmail.com", 
+        "phone" : 4567891230, 
+        "student_details" : {
+            "batch" : 2020,
+            "enrollment" : "e20cseu1200",
+            "year": 4,
+            "sem" : 8
+        },
+        "hobbies" : ["reading", "tennis", "swimming"]
+
+    }, 
+    {
+        "name" : "Liam", 
+        "email" : "liam@gmail.com", 
+        "phone" : 1231231234, 
+        "student_details" : {
+            "batch" : 2023,
+            "enrollment" : "e23cseu1133",
+            "year": 2,
+            "sem" : 3
+        },
+        "hobbies" : ["cooking", "gaming", "cycling"]
+
+    }, 
+    {
+        "name" : "Emma", 
+        "email" : "emma@gmail.com", 
+        "phone" : 3213213210, 
+        "student_details" : {
+            "batch" : 2022,
+            "enrollment" : "e22cseu1144",
+            "year": 3,
+            "sem" : 5
+        },
+        "hobbies" : ["dancing", "yoga", "traveling"]
+
+    }, 
+    {
+        "name" : "Olivia", 
+        "email" : "olivia@gmail.com", 
+        "phone" : 9876543211, 
+        "student_details" : {
+            "batch" : 2023,
+            "enrollment" : "e23cseu1155",
+            "year": 2,
+            "sem" : 3
+        },
+        "hobbies" : ["singing", "football", "chess"]
+
+    }, 
+    {
+        "name" : "Noah", 
+        "email" : "noah@gmail.com", 
+        "phone" : 7894561230, 
+        "student_details" : {
+            "batch" : 2021,
+            "enrollment" : "e21cseu1166",
+            "year": 4,
+            "sem" : 7
+        },
+        "hobbies" : ["hiking", "photography", "golf"]
+
+    }, 
+    {
+        "name" : "Ava", 
+        "email" : "ava@gmail.com", 
+        "phone" : 4561237890, 
+        "student_details" : {
+            "batch" : 2022,
+            "enrollment" : "e22cseu1177",
+            "year": 3,
+            "sem" : 5
+        },
+        "hobbies" : ["painting", "basketball", "piano"]
+
+    }, 
+    {
+        "name" : "Sophia", 
+        "email" : "sophia@gmail.com", 
+        "phone" : 7897897890, 
+        "student_details" : {
+            "batch" : 2020,
+            "enrollment" : "e20cseu1188",
+            "year": 4,
+            "sem" : 8
+        },
+        "hobbies" : ["writing", "volleyball", "music"]
+
+    }, 
+    {
+        "name" : "James", 
+        "email" : "james@gmail.com", 
+        "phone" : 9876543212, 
+        "student_details" : {
+            "batch" : 2021,
+            "enrollment" : "e21cseu1199",
+            "year": 4,
+            "sem" : 7
+        },
+        "hobbies" : ["fishing", "gaming", "reading"]
+
+    }
+]

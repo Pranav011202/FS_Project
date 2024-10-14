@@ -1,0 +1,40 @@
+version: '3'
+# can start with any version 1 or 2 or 3. latest version of compose file is 3
+services:
+  node-app: #taken as image name
+    build: .
+    ports:
+      - "3000:3000"
+    # volumes:
+    #   - ./:/app #since pwd (./) with Docker /app directory
+    #   - /app/node_modules
+    environment:
+      - PORT=3000
+    # env_file:
+    #   - ./.env
+    # can remove environment variable too as we are by default passing the environment variable here (PORT)
+
+# node-app is the image name and build: . comes from docker build -t image_name . 
+
+# docker run -v ${pwd}:/app:ro -v /app/node_modules  --env-file ./.env -p 3000:4000 -d --name express-container express-crud-image
+# this file is helping us to break this command into pieces
+
+# the concept of volumes will not be common in dev and prod environments.
+# we usually set up volumes in the dev environment.
+# rest of the properties are common for both dev and prod.
+
+  mongo:
+    image: mongo
+    #name of the image is mongo only - this gets latest image of mongoDB from dockerhub
+    environment:
+    #through the environment we are going to set the username and password of mongoDB
+      - MONGO_INITDB_ROOT_USERNAME=root
+      - MONGO_INITDB_ROOT_PASSWORD=root
+      #this sets the username and password
+    volumes:
+        #we are accessing mongo-db volumes
+      - mongo-db:/data/db #this is the location where mongoDB data will be stored.
+
+#here we have defined the volume with the name mongo-db
+volumes:
+  mongo-db:
